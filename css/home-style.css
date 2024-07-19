@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101214;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.header img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header li:hover {
+  color: #9bb4ca80;
+}
+
+.header li {
+  display: flex;
+  margin-left: 10px;
+  padding-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 35px;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.content h1 {
+  font-size: 50px;
+}
+
+.content p {
+  width: 500px;
+  font-size: 20px;
+}
+
+.content .btn {
+  display: flex;
+  justify-content: center;
+}
+
+.content .btn p {
+  display: flex;
+  border: solid 1px;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.content .btn p:hover {
+  background-color: #22272b;
+}
+
+.content img {
+  width: 1100px;
+  height: 600px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+  margin-top: -3px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.divider a {
+  transition: color 0.3s ease;
+}
+
+.divider a:hover {
+  color: #596773;
+}
+
+.divider h1 {
+  font-size: 20px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+.panels {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 500px;
+  height: 100px;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.panels .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  border: solid 1px;
+  width: 500px;
+  width: 100%;
+}
+
+.panels .item:hover {
+  background-color: #a1bdd914;
+}
+
+.panels .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.panels .icon img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.tittle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+  margin-bottom: -20px;
+  margin-top: -30px;
+}
+
+.tittle h1 {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.tittle img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.news-content {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.item1 {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
+}
+
+.item1 img {
+  width: 600px;
+  height: 320px;
+  border: solid 1px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.item1 h2 {
+  position: absolute;
+  top: 80%;
+  margin-left: 10px;
+  text-shadow: black;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black;
+}
+
+.item2 {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  cursor: pointer;
+}
+
+.item2 img {
+  width: 400px;
+  height: 320px;
+  border: solid 1px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.item2 h2 {
+  position: absolute;
+  top: 70%;
+  margin-left: 10px;
+  text-shadow: black;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item3 {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.item3 img {
+  width: 200px;
+  height: 100px;
+  border: solid 1px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.item3 h2 {
+  position: absolute;
+  top: 65%;
+  margin-left: 10px;
+  text-shadow: black;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black;
+  font-size: 10px;
+}
+
+.item4 {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+.item4 img {
+  width: 200px;
+  height: 100px;
+  border: solid 1px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.item4 h2 {
+  position: absolute;
+  top: 70%;
+  margin-left: 10px;
+  text-shadow: black;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black;
+  font-size: 15px;
+}
+
+.item5 {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+.item5 img {
+  width: 200px;
+  height: 100px;
+  border: solid 1px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.item5 h2 {
+  position: absolute;
+  top: 50%;
+  margin-left: 10px;
+  text-shadow: black;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black;
+  font-size: 15px;
+}
+
+.circles {
+  display: flex;
+  flex-direction: row;
+  gap: 220px;
+  margin-top: 10px;
+  justify-items: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.circles img {
+  border: solid 1px;
+  border-radius: 100%;
+}
+
+.circles .item {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.circles .item h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enterprises {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.enterprises img {
+  width: 200px;
+  height: 200px;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.footer-wall {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100px;
+  padding-top: 2%;
+  border: solid 1px;
+  border-image: linear-gradient(to right, transparent,transparent, white , white, transparent, transparent);
+  border-image-slice: 1;
+  margin-top: 20px;
+}
+
+.footer-wall h1 {
+  font-size: 20px;
+}

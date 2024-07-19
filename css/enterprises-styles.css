@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101214;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  padding-left: 10px;
+}
+
+.header img {
+  width: 30px;
+  height: 30px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header li:hover {
+  color: #9bb4ca80;
+}
+
+.header li {
+  display: flex;
+  margin-left: 10px;
+  padding-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content img {
+  margin-top: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.panels {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease;
+}
+
+.frame:hover {
+  background-color: #a1bdd914;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 800px;
+  height: 700px;
+  justify-content: center;
+}
+
+.info {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.info h1 {
+  font-size: 40px;
+}
+
+.info h2 {
+  margin-top: 20px;
+}
+
+.info p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.footer-wall {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100px;
+  padding-top: 2%;
+  border: solid 1px;
+  border-image: linear-gradient(to right, transparent,transparent, white , white, transparent, transparent);
+  border-image-slice: 1;
+  margin-top: 20px;
+}
+
+.footer-wall h1 {
+  font-size: 20px;
+}
